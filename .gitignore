@@ -1,0 +1,14 @@
+# 忽略嵌套的 Git 仓库
+us-visa-slot-checker/
+
+# 临时文件
+*.tmp
+*.log
+
+# IDE 文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
