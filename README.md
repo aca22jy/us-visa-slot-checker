@@ -1,5 +1,5 @@
-# 🇺🇸 US Visa Appointment Slot Monitor (London / Belfast)  
-# 🇨🇳 美国签证预约空位监控（伦敦 / 贝尔法斯特）
+# US Visa Appointment Slot Monitor (London / Belfast)  
+# 美国签证预约空位监控（伦敦 / 贝尔法斯特）
 
 > A Tampermonkey script to automatically monitor US visa appointment availability in the UK (Aug–Oct 2025), with notifications and email alerts.  
 > 一个用于自动监控英国地区美国签证预约空位的油猴脚本（2025 年 8–10 月），支持通知提醒和邮件推送。
@@ -19,6 +19,8 @@
 - 💻 Injects automatically when entering the appointment page  
   💻 进入预约页面后自动注入脚本并启动监控
 
+  
+
 ---
 
 ## 📦 Installation / 安装步骤
@@ -31,6 +33,10 @@
    保存脚本后打开 [签证预约页面](https://ais.usvisa-info.com/en-gb/niv/schedule/)  
 4. The script starts running automatically  
    脚本将自动运行并开始监控空位
+
+⚠️ **Important Note / 重要提醒**:  
+The visa appointment page will timeout after approximately **4 hours**. You need to manually refresh the page and re-login to your account to continue monitoring.  
+签证预约页面大约每 **4 小时** 会超时。您需要手动刷新页面并重新登录账户以继续监控。
 
 ---
 
