@@ -34,6 +34,10 @@
 4. The script starts running automatically  
    脚本将自动运行并开始监控空位
 
+5. 安装脚本后按一下F12打开控制台点击console/控制台即可看到记录
+
+
+
 ⚠️ **Important Note / 重要提醒**:  
 The visa appointment page will timeout after approximately **4 hours**. You need to manually refresh the page and re-login to your account to continue monitoring.  
 签证预约页面大约每 **4 小时** 会超时。您需要手动刷新页面并重新登录账户以继续监控。
