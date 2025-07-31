@@ -25,8 +25,8 @@
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension  
    安装 [Tampermonkey 油猴插件](https://www.tampermonkey.net/)  
-2. Create a new userscript and paste contents of `monitor_inject.js`  
-   创建新脚本并粘贴 `monitor_inject.js` 的全部内容  
+2. Create a new userscript and paste contents of `英国美签预约监控助手（支持自动提醒 + 邮件通知）.js`  
+   创建新脚本并粘贴 `英国美签预约监控助手（支持自动提醒 + 邮件通知）.js` 的全部内容  
 3. Save and open your [visa appointment page](https://ais.usvisa-info.com/en-gb/niv/schedule/)  
    保存脚本后打开 [签证预约页面](https://ais.usvisa-info.com/en-gb/niv/schedule/)  
 4. The script starts running automatically  
@@ -39,8 +39,8 @@
 The script uses [Formspree](https://formspree.io/) to send email alerts.  
 该脚本使用 Formspree 免费服务发送邮件提醒，你需要注册自己的账户以获得免费邮件次数。
 
-- Replace the `EMAIL_ENDPOINT` field with your own Formspree endpoint  
-  将 `EMAIL_ENDPOINT` 字段替换为你自己的 Formspree 地址  
+- Replace the `_replyto` field with your own email address in the script  
+  将脚本中的 `<你的邮箱>` 字段替换为你自己的邮箱地址  
 - You can test email delivery from your browser's dev console  
   可通过浏览器开发者工具控制台测试邮件发送功能
 
@@ -58,13 +58,12 @@ Use responsibly and at your own risk.
 
 ## 📄 License / 许可证
 
-MIT License  
-自由使用、修改和分发，但请保留作者信息和许可证内容。
+CC BY-NC-ND 4.0  
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
 
 ---
 
 ## ✍️ Author / 作者
 
-Xi
-[GitHub](https://github.com/aca22jy)｜欢迎提 issue 或 PR 改进脚本！
-
+Xi  
+[GitHub](https://github.com/aca22jy) ｜ 欢迎提 issue 或 PR 改进脚本！
